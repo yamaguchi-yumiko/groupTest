@@ -47,23 +47,23 @@ a {
 	margin: auto;
 }
 
-gl-header {
+.gl-header {
  border-color: grey;
 }
 
-gl-header h1 {
+.gl-header h1 {
 	width: 100%;
 
 }
 
-gl-navi a {
-	
+.gl-navi a {
+
 }
 
-gl-footer {
+.gl-footer {
 	border-color: grey;
 }
 
-gl-footer small {
+.gl-footer small {
 	font-size: 16px;
 }
