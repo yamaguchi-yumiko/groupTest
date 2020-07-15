@@ -4,9 +4,9 @@
 /*-------------------------
 	初期値
 -------------------------*/
- html {
-	 font-size: 62.5%;
- }
+html {
+	font-size: 62.5%;
+}
 
 body {
 	font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
@@ -25,15 +25,15 @@ a {
 	text-decoration: none;
 }
 
-:link {
+a:link {
 	color: yellow;
 }
 
-:visited {
+a:visited {
 	color: purple;
 }
 
-:hover {
+a:hover {
 	color: purple;
 }
 
@@ -48,22 +48,33 @@ a {
 }
 
 .gl-header {
- border-color: grey;
+	height: 100px;
+	width: 100px;
 }
 
 .gl-header h1 {
 	width: 100%;
-
+	background-color: gray;
+	color: white;
 }
 
 .gl-navi a {
 
 }
 
+main p {
+	padding-bottom: 20px;
+}
+
 .gl-footer {
-	border-color: grey;
+	background-color: grey;
+	height: 80px;
+	width: 100%;
+	padding-top: 15px;
+	text-align: center;
 }
 
 .gl-footer small {
 	font-size: 16px;
+	color: white;
 }
