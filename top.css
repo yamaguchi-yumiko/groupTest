@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+
+/*-------------------------
+	初期値
+-------------------------*/
+ html {
+	 font-size: 62.5%;
+ }
+
+body {
+	font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+	color: #333333;
+	font-size: 1.6rem;
+	line-height: 2;
+	font-feature-settings: "palt";
+}
+
+ul li {
+	list-style-type: none;
+}
+
+a {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+:link {
+	color: yellow;
+}
+
+:visited {
+	color: purple;
+}
+
+:hover {
+	color: purple;
+}
+
+
+/*-------------------------
+	グローバル
+-------------------------*/
+
+.container {
+	width: 1100px;
+	margin: auto;
+}
+
+gl-header {
+ border-color: grey;
+}
+
+gl-header h1 {
+	width: 100%;
+
+}
+
+gl-navi a {
+	
+}
+
+gl-footer {
+	border-color: grey;
+}
+
+gl-footer small {
+	font-size: 16px;
+}
